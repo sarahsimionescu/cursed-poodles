@@ -9,7 +9,11 @@ The styleGAN that nobody asked for! I had a lot of fun learning about GANs and d
 2. Create a new pip enviroment
 3. git clone https://github.com/NVlabs/stylegan2-ada-pytorch to replace the empty folder named "stylegan2-ada-pytorch" in the repository
 4. Activate the enviroment and pip install requirements.txt
-5. Run demo.ipynb and have fun! You can change the seed values to generate new images of poodles.
+5. Decompress the .pkl file holding the model. I had to split it into 11 zip files to upload to Github, but you can use 7zip file manager to combine and unzip the file.
+    - Open 7zip
+    - Select all parts of the .zip.001 to .zip.011
+    - Click extract
+6. Run demo.ipynb and have fun! You can change the seed values to generate new images of poodles.
 
 ## Results
 ![This is an image](./fakes.png)
